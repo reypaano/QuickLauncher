@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         toGoogleBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                String googleAdd = "https://www.facebook.com";
+                String googleAdd = "https://www.google.com";
                 Uri webAddress = Uri.parse(googleAdd);
 
                 Intent goToGoogle = new Intent(Intent.ACTION_VIEW);
